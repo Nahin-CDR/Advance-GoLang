@@ -7,5 +7,6 @@ import (
 
 func main() {
 	fmt.Println("Hello World")
-	fmt.Println(testpackage.Greet())
+	fmt.Println(testpackage.Greet("Nahin"))
+
 }

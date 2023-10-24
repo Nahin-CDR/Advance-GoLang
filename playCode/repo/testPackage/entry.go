@@ -1,5 +1,5 @@
 package testpackage
 
-func Greet() string {
-	return "Hello Coder"
+func Greet(name string) string {
+	return "Hello Coder " + name
 }
